@@ -27,5 +27,36 @@
 .logo-photo{
     width: 120px;
 }
+.banner-img{
+    width: 300px;
+}
+.baner-continer{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid gray;
+    color: white;
+    background-image: url("./banner/background.png"),
+    linear-gradient(45deg,rgb(10, 9, 9),#000);
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    
+    
+    
+}
 
 
